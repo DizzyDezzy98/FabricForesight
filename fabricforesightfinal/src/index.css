@@ -1,0 +1,51 @@
+*{
+  box-sizing: border-box;
+}
+
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 90px;
+  padding: 30px 25px;
+}
+
+.nav--logo_text, .nav--title{
+  margin: 0;
+}
+
+
+.nav--items{
+
+  margin-left: 17px;
+  font-weight: 600;
+}
+.nav--icon{
+  height: 30px;
+  margin-right: auto;
+}
+body{ 
+
+  background-image: url("./assets/images/sewing.jpg");
+  background-size: cover;
+  height: 100vh;
+  margin: 0;
+}
+
+.main{
+  text-align: center;
+  margin: auto;
+  color: white;
+  width: 1500px;
+  background-color: rgba(80, 112, 140, .5);
+  height: 250px;
+}
+
+.main--title{
+  font-size: 115px;
+}
+
+.main--content{
+  font-size: 38px;
+  margin-top: 15px;
+}
